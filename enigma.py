@@ -1,3 +1,7 @@
+"""
+Just a fun little peice of code that encode and decode messages and letter given a secret key
+"""
+
 import challenge2clean as clean
 import challenge2rev as cleaner
 
