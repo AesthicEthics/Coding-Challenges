@@ -1,12 +1,20 @@
 """
-The school year has just begun, so it's time for Alice to find a suitable boyfriend! Naturally, this process will first require some careful research using a 
-convenient online academic source known as Facebook.
+Jane's family has just moved to a new city and today is her first day of school. She has a list of instructions for walking from her home to the school. 
+Each instruction describes a turn she must make. For example, the list
 
-Alice is considering G (1≤G≤100) guys, and wants to estimate how well-matched she would be with each of them - in other words, how attractive each of them is.
-For each guy, Alice can find N (1≤N≤100) pictures of him on Facebook, the i-th of which has attractiveness Ai (1≤Ai≤100). The guy might be as ugly as his 
-least-attractive picture (the one with the smallest attractiveness value), or as hot as his most-attractive picture.
+Copy
+R
+QUEEN
+R
+FOURTH
+R
+SCHOOL
 
-In making her important and complex decision, Alice would like to know the potential range of attractiveness of each of the G potential guys!
+means that she must turn right onto Queen Street, then turn right onto Fourth Street, then finally turn right into the school. Your task is to write a computer program 
+which will create instructions for walking in the opposite direction: from her school to her home.
+
+The input and output for your program will be formatted like the samples below. You may assume that Jane's list contains at least two but at most five instructions,
+and you may assume that each line contains at most 10 characters, all of them capital letters. The last instruction will always be a turn into the SCHOOL.
 """
 a = []
 c = []
